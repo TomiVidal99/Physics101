@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--metadata-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="tomas vidal">
+        <meta name="description" content="Page for learning physics with interactivity">
+        <meta name="keywords" content="physics, learn, interative, basis, equations">
+
+        <!--fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!--title-->
+        <title>Physics101 | Learn physics here!</title>
+
+        <!--assets-->
+        <link href="style.css" rel="stylesheet" type="text/css">
+
+        <!--scripts-->
+        <script src="main.js" type="text/javascript"></script>
+
+    </head>
+    <body>
+        <header class="navbar-wrapper row">
+            <div class="language-container column">
+                <select class="select" size="1" name="links" onchange="window.location.href=this.value;">
+                    <option value=".index.html">en-US</option>
+                    <option value="./pages/index.es-AR.html">es-AR</option>
+                </select>
+            </div>
+            <nav class="navbar-container column">
+                <ul class="navbar row">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#chapters">Chapters</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="main-content-wrapper column">
+            <section id="home" class="introduction column">
+                <h1 id="title" class="title-color text-center">Welcome to physics <b class="bold underlined">101</b></h1>
+                <p id="description" class="first-letter-big">We are glad to see you getting into the world of physics!<br><br>In this <em class="underlined">self taught course</em> we hope you get the basis of physics; and </p>
+            </section>
+            <section class="introduction row">
+                <h2></h2>
+                <p></p>
+            </section>
+            <div id="chapters" class="content-table row">
+                <a href="topics/messurements.html">messurements</a>
+            </div>
+        </section>
+        <footer class="footer-wrapper">
+        </footer>
+    </body>
+</html>
